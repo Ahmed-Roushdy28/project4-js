@@ -1,0 +1,70 @@
+*{box-sizing: border-box;}
+body{
+   font-family: "Titillium Web" , sans-serif;
+   background-color: #24353F;
+}
+h1{
+   color: #17a2b8;
+   font-size: 2.5rem;
+   font-weight: 500;
+   line-height: 1.2;
+   margin: 0;
+}
+input{
+   background-color: transparent !important;
+}
+
+a {
+   color: inherit; /* Inherit color from parent */
+   text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+   color: inherit; /* Prevent color change on hover */
+   text-decoration: underline;
+}
+input::placeholder{
+   color: #B6B6B6 !important;
+}
+.group{
+   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+   max-width: 75%;
+}
+.container{
+   max-width: 1140px;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.login-btn:hover{
+color: white;
+}
+.submit-btn:hover{
+color: white;
+}
+
+.nav-color{
+   background-color: #24353F;
+   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.nav-color button a {
+   color: rgba(255, 255, 255, .5) !important;
+}
+
+.nav-color button:hover a{
+   color: white !important;
+   font-family: "Titillium Web" , sans-serif;
+}
+.navbar{
+   padding: 0.3rem 1rem;
+}
+
+button.navbar-toggler:focus,
+button.navbar-toggler:active {
+  outline: none;
+  box-shadow: none;
+}
+#home{
+   height: 75vh;
+}
